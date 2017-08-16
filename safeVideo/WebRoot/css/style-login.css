@@ -1,0 +1,363 @@
+a:HOVER {
+	text-decoration: none;
+}
+/* login.jsp 登录界面 */
+.container {
+    height:100%;
+    background: #fcfcfc;
+}
+/*头部*/
+#logname {
+	font-family: "SimSun","Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+	padding-left: 15px;
+	font-size: 24px;
+}
+#wrap_contain {
+    width:100%;
+    height:69px;
+    -moz-box-shadow: 0px 5px 10px #cccccc;
+    -o-box-shadow: 0px 5px 10px #cccccc;
+    -webkit-box-shadow: 0px 5px 10px #cccccc;
+    box-shadow: 0px 5px 10px #cccccc;
+    background: #FFFFFF;
+}
+#login_title {
+    width:1120px;
+    height:49px;
+    margin:0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#logo {
+    float:left;
+}
+#logo a img {
+    width:122px;
+    height:49px;
+}
+#title_right,#title_right_log {
+    font-family: "SimSun","Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    line-height:18px;
+    color: #999;
+    margin-right: 200px;
+    margin-top: 20px;
+    float: right;
+}
+#title_right a,#title_right_log a {
+	text-decoration: none;
+	color: blue;
+	float:right;
+}
+#title_right a:HOVER,#title_right_log a:hover {
+	color:red;
+}
+.fr {
+    float:right;
+}
+/*登录框*/
+#contain_mid {
+    padding-top:10px;
+    width:100%;
+    margin-top: 10px;
+}
+#contain_mid_login {
+    margin:0 auto;
+    padding-top:10px;
+    width:1120px;
+    height:360px;
+}
+#contain_mid_login img {
+    width:510px;
+    height:315px;
+    margin-top:25px;
+    float:left;
+}
+#loginbox {
+    width:350px;
+    height:360px;
+    margin-top:25px;
+    margin-right: 200px;
+    background:white;
+    float:right;
+}
+.itext {
+    line-height: 17px;
+    padding: 10px 0;
+    border: 0;
+    outline:0;
+    width: 254px;
+    overflow: hidden;
+    margin-left:11px;
+    font-size: 12px;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    float:left;
+}
+#loginbox_mid {
+    width:310px;
+    height:360px;
+    padding:20px 20px 20px 20px;
+}
+#div_title {
+    width: 100%;
+    height: 18px;
+    font-family: "SimSun", "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+#box_title {
+    display: block;
+    width:150px;
+    height: 18px;
+    line-height: 18px;
+    font-weight: 600;
+    float: left;
+}
+#reg {
+    float:right;
+}
+#reg a {
+    text-decoration: none;
+    color: blue;
+}
+#reg a:HOVER {
+    color:red;
+}
+.login_row {
+    border: 1px solid #bdbdbd;
+    height: 38px;
+    width: 304px;
+    margin-bottom: 20px;
+}
+.login_lab {
+    width: 30px;
+    height: 30px;
+    padding: 4px;;
+    float:left;
+}
+#login_lab_user {
+    background:url(../images/user.png) no-repeat;
+    background-size: 30px 30px;
+    position: relative;
+    top: 4px;
+    right: -8px;
+}
+#login_lab_pwd {
+    background:url(../images/Password.png) no-repeat;
+    background-size: 30px 30px;
+    position: relative;
+    top: 4px;
+    right: -8px;
+}
+#autologin {
+    margin-left: 20px;
+    position: relative;
+    top: 3px;
+}
+#spanfor {
+    display:-moz-inline-block;
+    display:inline-block;
+    width: 70px;
+    height: 18px;
+    padding:10px 0 10px 10px;
+    margin-left:130px;
+}
+#spanfor a {
+    text-decoration: none;
+}
+#spanfor a:hover {
+    color:red;
+}
+#but_div {
+    border: none;
+    margin-bottom:5px;
+}
+#loginbut {
+    height: 38px;
+    width: 304px;
+    border:0;
+    font-size:14px;
+    color: #FFFFFF;
+    border: none;
+    outline:0;
+    font-family:"Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+    background: #ff3c3c;
+}
+#loginbut:HOVER {
+    background: -webkit-linear-gradient(rgba(254, 60, 60,0.8) ,rgba(254, 60, 60, 1) , rgba(254, 60, 60,0.8)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(254, 60, 60,0.8) ,rgba(254, 60, 60, 1) , rgba(254, 60, 60,0.8)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(254, 60, 60,0.8) ,rgba(254, 60, 60, 1) , rgba(254, 60, 60,0.8)); /* Firefox 3.6 - 15 */
+    /* background: linear-gradient(rgba(242, 242, 242,0) ,rgba(242, 242, 242,1) , rgba(242, 242, 242,0)); 标准的语法（必须放在最后） */
+    background:linear-gradient(rgba(254, 60, 60,0.8) ,rgba(254, 60, 60, 1) , rgba(254, 60, 60,0.8));
+    border:none;
+}
+#meserror li{
+    color: red;
+}
+#partnerlogin {
+    width:310px;
+    height: 58px;
+}
+#partnerlogin span {
+    height: 10px;
+    line-height: 10px;
+    color: #999;
+    font-family: "SimSun", "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+}
+#partnericon {
+    margin-top: 10px;
+    width: 100%;
+    height: 25px;
+}
+#qqlogin {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url("../images/QQ.png") no-repeat;
+    background-size: 24px 24px;
+}
+#qqlogin:hover {
+    background: url("../images/QQff875a.png") no-repeat;
+    background-size: 24px 24px;
+}
+.simplefooter p{
+    text-align: center;
+    font: 12px Arial, Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 20px auto 0px;
+}
+.simplefooter {
+	margin-bottom: 50px;
+}
+#meserror {
+	width:100%;
+	height:20px;
+	line-height: 20px;
+	margin-bottom:10px;
+}
+/* 
+*register.html 
+*注册界面
+*/
+#infoBox {display: none; }
+.container_register {
+	height:100%;
+    background: #fcfcfc;
+}
+#reg_mid {
+	width:100%;
+	padding-top:50px;
+}
+#reg_box {
+	margin:0 auto;
+	width:780px;
+	height:300px;	/* 600px */
+	border:1px solid #dcdcdc;
+	background:white;
+	border-radius:12px;
+	position: relative;
+}
+#reg_tips {
+	position: absolute;
+	border: 1px solid #dcdcdc;
+	width: 200px;
+	height:200px;
+	top: 58px;
+    right: 6px;
+    padding: 5px;
+    border-radius: 3px;
+}
+#reg_title {
+	width:750px;
+	height:30px;
+	margin:10px auto;
+	margin-top:16px;
+	border-bottom: 1px solid #dcdcdc;
+}
+#reg_title label {
+	font-size:20px;
+	margin-left:10px;
+}
+.regstyle {
+	height:40px;
+	width:332px;
+	margin:0 auto;
+	margin-bottom:30px;
+	font-family: "微软雅黑";
+}
+.reg_input {
+	line-height: 42px;
+	height:42px;
+	width:322px;
+	border:1px solid #dcdcdc;
+	border-radius:5px;
+	padding:10px;
+	font-family: "微软雅黑";
+}
+.checkbut {
+	height:42px;
+	width:150px;
+	border-radius:5px;
+	background:#57565f;
+	margin-left:10px;
+	color:#fff;
+	border:0;
+	outline:none;
+	font-family: "微软雅黑";
+}
+.checkbut:HOVER {
+	box-shadow: 0px 0px 8px #888888; 
+}
+.regcheck {
+	line-height: 42px;
+	height:42px;
+	width:142px;
+	border:1px solid #dcdcdc;
+	border-radius:5px;
+	padding:10px;
+	font-family: "微软雅黑";
+}
+#reglawread {
+	height:10px;
+	width:322px;
+	margin:0 auto;
+	margin-bottom:30px;
+	font-family: "微软雅黑";
+	margin-top:50px;
+}
+#reglawread a {
+	text-decoration: none;
+	color:#1b66c7;
+}
+#reglawread a:hover {
+	color: red;	
+}
+#regbut {
+	height:42px;
+	width:322px;
+	border-radius:5px;
+	outline:none;
+	border:0;
+	background:#E3393C;
+	color:white;
+	font-family: "微软雅黑";
+	cursor: not-allowed;
+}
+#regbut:HOVER {
+	box-shadow: 0px 0px 10px #888888; 
+}
+#regphone {
+	display:none;
+}
+#signin {
+	width:300px;
+	height:24px;
+	margin:0 auto;
+}
+#signin a {
+	display:block;
+	width:300px;
+	line-height: 24px;
+	text-align: center;
+	color: red;
+}
+#errorPwd {color: red;}
+/*------ registerresult.jsp ----------*/
+#regsult_wrap {width:900px;margin: 20px auto;padding:50px 0; font-size: 18px;font-weight: 300;}
